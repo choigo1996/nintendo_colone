@@ -446,4 +446,172 @@ img {
   height: 25px;
   border: 2px solid #fff;
   border-radius: 15px;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+}
+.inner .link {
+  display: flex;
+  gap: 2rem;
+}
+.inner .link .sns {
+  display: flex;
+  gap: 2rem;
+}
+.inner .link li {
+  width: 60px;
+  height: 60px;
+  list-style-type: none;
+}
+.inner .btnBox {
+  display: flex;
+  width: 370px;
+  height: 60px;
+  gap: 2rem;
+}
+.inner .btnBox a {
+  display: flex;
+}
+
+.bottom_nav {
+  text-align: center;
+  margin: 20px 40px;
+}
+.bottom_nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.bottom_nav ul .kor {
+  border-top: 2px solid red;
+  list-style: none;
+}
+.bottom_nav ul .kor .kor_head {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Malgun Gothic";
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+.bottom_nav ul .kor .kor_nin {
+  padding-top: 10px;
+  display: grid;
+  font-size: 13px;
+  font-weight: normal;
+}
+.bottom_nav ul .kor .kor_nin a {
+  text-decoration: none;
+  color: #8c8c8c;
+}
+.bottom_nav ul .main_body {
+  border-top: 2px solid red;
+  list-style: none;
+}
+.bottom_nav ul .main_body .bon_head {
+  font-size: 16px;
+  font-family: "Malgun Gothic";
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+.bottom_nav ul .main_body .bonche {
+  padding-top: 10px;
+  display: grid;
+  font-size: 13px;
+  font-weight: normal;
+}
+.bottom_nav ul .main_body .bonche a {
+  text-decoration: none;
+  color: #8c8c8c;
+}
+.bottom_nav ul .software {
+  border-top: 2px solid red;
+  list-style: none;
+}
+.bottom_nav ul .software .soft_head {
+  font-size: 16px;
+  font-family: "Malgun Gothic";
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+.bottom_nav ul .software .soft {
+  padding-top: 10px;
+  display: grid;
+  font-size: 13px;
+  font-weight: normal;
+}
+.bottom_nav ul .software .soft a {
+  text-decoration: none;
+  color: #8c8c8c;
+}
+.bottom_nav ul .support_kor {
+  border-top: 2px solid red;
+  list-style: none;
+}
+.bottom_nav ul .support_kor .support_head {
+  font-size: 16px;
+  font-family: "Malgun Gothic";
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+.bottom_nav ul .support_kor .support {
+  padding-top: 10px;
+  display: grid;
+  font-size: 13px;
+  font-weight: normal;
+}
+.bottom_nav ul .support_kor .support a {
+  text-decoration: none;
+  color: #8c8c8c;
+}
+
+.inners {
+  display: flex;
+  flex-direction: column;
+}
+.inners .btnTerms {
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+.inners .btnTerms .Terms {
+  font-size: 14px;
+  text-decoration: none;
+  color: #8c8c8c;
+  border-right: 1px solid #8c8c8c;
+  height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.inners .btnTerms .Privacy {
+  font-size: 14px;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+}
+.inners .write {
+  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #8c8c8c;
+  padding-left: 20px;
+}
+.inners .write p {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.inners .write p .bl {
+  margin-top: 10px;
+  text-align: right;
+}
+.inners .write address {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
